@@ -6,7 +6,7 @@ authors = ["Morgan Jones <mjonjones26@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 flake8 = "^6.1.0"
 pytest = "^7.4.2"
 python-semantic-release = "^8.1.1"
