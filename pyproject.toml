@@ -1,14 +1,27 @@
 [tool.poetry]
 name = "scifinames"
 version = "0.1.0"
-description = ""
-authors = ["Morgan Jones <morgan.jones@veygo.com>"]
+description = "Sci-Fi Name Generator"
+authors = ["Morgan Jones <mjonjones26@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 flake8 = "^6.1.0"
 pytest = "^7.4.2"
+python-semantic-release = "^8.1.1"
+
+[tool.semantic_release]
+version_variable = [
+    "scifinames/__init__.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+branch = "master"
+upload_to_PyPI = false
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
 
 [build-system]
 requires = ["poetry-core"]
