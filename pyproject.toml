@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scifinames"
-version = "0.1.0"
+version = "0.0.0"
 description = "Sci-Fi Name Generator"
 authors = ["Morgan Jones <mjonjones26@gmail.com>"]
 readme = "README.md"
