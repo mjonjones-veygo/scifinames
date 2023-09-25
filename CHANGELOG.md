@@ -2,6 +2,15 @@
 
 
 
+## v1.0.0 (2023-09-25)
+
+### Breaking
+
+* feat(README): Add usage guide
+
+BREAKING CHANGE: Instructions to install package. ([`1529ad8`](https://github.com/mjonjones-veygo/scifinames/commit/1529ad82d887207cdd397e624392611ab3160bb1))
+
+
 ## v0.0.0 (2023-09-25)
 
 ### Chore
