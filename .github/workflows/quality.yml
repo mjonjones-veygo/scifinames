@@ -1,0 +1,41 @@
+name: Quality
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+
+      - name: Install dependencies
+        run: poetry install --no-interaction --no-root
+
+      - name: Run flake8
+        run: poetry run flake8 scifinames
+
+      - name: Run pytest
+        run: poetry run pytest
