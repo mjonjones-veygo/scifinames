@@ -2,6 +2,13 @@
 
 
 
+## v1.1.0 (2023-09-27)
+
+### Feature
+
+* feat(star_wars): Add new last names to star wars data. ([`d4b4722`](https://github.com/mjonjones-veygo/scifinames/commit/d4b4722804476e657a4eebdb6e121fd948a6cef2))
+
+
 ## v1.0.0 (2023-09-25)
 
 ### Breaking
