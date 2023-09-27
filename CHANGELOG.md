@@ -2,6 +2,13 @@
 
 
 
+## v1.2.0 (2023-09-27)
+
+### Feature
+
+* feat(README): Update documentation ([`bdbeb95`](https://github.com/mjonjones-veygo/scifinames/commit/bdbeb95db4dcfe706874f53f588e3f07eb49470c))
+
+
 ## v1.1.0 (2023-09-27)
 
 ### Feature
