@@ -13,6 +13,8 @@ star_wars_data = {
         "Bada",
         "Bakarn",
         "Kelo",
+        "Skywalker",
+        "Tano"
     ],
     "title": [
         "Jedi Padawan ",

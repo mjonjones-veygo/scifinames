@@ -13,7 +13,7 @@ python-semantic-release = "^8.1.1"
 
 [tool.semantic_release]
 version_variable = [
-    "scifinames/__init__.py:__version__"
+    "pyproject.toml:version"
 ]
 version_toml = [
     "pyproject.toml:tool.poetry.version"
