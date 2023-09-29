@@ -6,6 +6,8 @@ star_wars_data = {
         "Aban",
         "Bafor",
         "Ballax",
+        "Ardo",
+        "Mitthraw",
     ],
     "second_name": [
         "Aloo",
@@ -14,7 +16,10 @@ star_wars_data = {
         "Bakarn",
         "Kelo",
         "Skywalker",
-        "Tano"
+        "Tano",
+        "Bardai",
+        "Nuruodo",
+        "Bridger",
     ],
     "title": [
         "Jedi Padawan ",
