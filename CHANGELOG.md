@@ -2,6 +2,13 @@
 
 
 
+## v1.3.0 (2023-09-29)
+
+### Feature
+
+* feat(star_wars): Add new names ([`9a3c4b7`](https://github.com/mjonjones-veygo/scifinames/commit/9a3c4b777c3342229290bc6eb6f06e2b11d27aa0))
+
+
 ## v1.2.0 (2023-09-27)
 
 ### Feature
